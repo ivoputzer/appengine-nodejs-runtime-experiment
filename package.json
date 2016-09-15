@@ -5,7 +5,9 @@
   "description": "demo project for appengine",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "node": "node",
+    "start": "node $npm_package_main"
   },
   "repository": {
     "type": "git",
