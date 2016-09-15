@@ -4,6 +4,11 @@
   "private": true,
   "description": "demo project for appengine",
   "main": "index.js",
+  "engines": {
+    "node": "^6.0.0",
+    "iojs": "^3.0.0",
+    "npm": "^3.0.0"
+  },
   "scripts": {
     "test": "mocha",
     "node": "node",
